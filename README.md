@@ -1,14 +1,14 @@
-### Задание:
+### Task:
 
-Существует процесс, который формирует статистику по сделкам по разным периодам: 
+There is a process that generates statistics on transactions for different periods: 
 
-- 24 часа
-- Недельный
-- Месячный 
-- Квартальный
-- Годовой
+- 24 hours
+- Weekly
+- Monthly 
+- Quarterly
+- Year
 
-Запрос выглядит так: 
+The query looks like this: 
 
 ```sql
 SELECT
@@ -21,4 +21,4 @@ GROUP BY 1,
          2;
 ```
 
-Какое-то время данный запрос выполнялся достаточно быстро, но с ходом развития проекта объём данных в БД заметно увеличился, что привело к снижению его производительности. Какие действия необходимо предпринять, чтобы увеличить быстродействие запроса?
+For a while, this query ran quite fast, but as the project evolved, the amount of data in the database increased significantly, which led to a decrease in its performance. What actions should be taken to improve query performance?
